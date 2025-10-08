@@ -99,7 +99,7 @@ def myid():
     
 
 @app.route('/draw')
-def draw():
+def draw2():
     return render_template('draw.html')
 
 @app.route('/run', methods=['POST'])
