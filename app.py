@@ -104,7 +104,7 @@ def draw():
 
 @app.route('/run', methods=['POST'])
 def run():
-    x = request.form['character']
+    x = 'x'
     y = int(request.form['turn'])
     results = [mylib.myfunc(x, i) for i in range(1, y + 1)]
     return render_template('result.html', x=x, y=y, results=results)
