@@ -10,20 +10,26 @@
 หน้าแสดงผลลัพธ์จากการรับข้อมูล (/result)
 # โครงสร้างของโปรเจกต์
 ├─ Simple-Web-using-Python-Flask
-   ├── main.py                      # ไฟล์หลักของ Flask (กำหนด route แต่ละหน้า)
-   ├── mylib.py                     # ไฟล์ฟังก์ชันที่ใช้คำนวณหรือประมวลผล (myfunc)
-   ├── __pycache__
-   │   └── mylib.cpython-313.pyc
-   ├── README.md
-   ├── static                       # เก็บไฟล์ภาพ
-   │   ├── cloud.png
-   │   ├── network.png
-   │   └── samui.png
-   └── templates                    # เก็บไฟล์ HTML (Template)
-       ├── draw.html                # หน้า Input Form
-       ├── result.html              # หน้าแสดงผลลัพธ์
-       ├── tech.html                # หน้าเทคโนโลยีที่สนใจ
-       └── tourist-site.html        # หน้าแนะนำสถานที่ท่องเที่ยว
+   .
+├── app.py                              # ไฟล์หลักของ Flask (กำหนด route แต่ละหน้า)
+├── mylib.py                            # ไฟล์ฟังก์ชันที่ใช้คำนวณหรือประมวลผล (myfunc)
+├── __pycache__
+│   └── mylib.cpython-313.pyc
+├── README.md
+├── static                              # เก็บไฟล์ภาพ
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   ├── 5.jpg
+│   ├── 6.jpg
+│   ├── 7.jpg
+│   └── 8.jpg
+└── templates                            # เก็บไฟล์ HTML (Template)
+    ├── draw.html                        # หน้า Input Form
+    ├── index.html                       # หน้าแนะนำสถานที่ท่องเที่ยว
+    ├── result.html                      # หน้าแสดงผลลัพธ์
+    └── tech.html                        # หน้าเทคโนโลยีที่สนใจ
 ขั้นตอนการสร้างเว็บด้วย Flask
 
 ติดตั้ง Flask
@@ -47,3 +53,4 @@ pip install flask
 หรือ
 
 http://localhost/
+
